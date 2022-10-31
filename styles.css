@@ -19,7 +19,7 @@ body {
 .container {
 	max-width: 25rem;
 	background-color: hsl(0, 0%, 100%);
-	padding: 20px;
+	padding: 15px;
 	/* margin: 15rem 0; */
 	text-align: center;
 }
@@ -34,13 +34,14 @@ div.container,
 img.Qrcode {
 	max-width: 100%;
 }
-h3.title {
+h1.title {
 	font-size: 2rem;
 	color: hsl(218, 44%, 22%);
-	margin: 1rem 0;
+	margin: 2.5rem 0;
 }
 
 div.container > p {
 	font-size: 1.5rem;
 	color: hsl(220, 15%, 55%);
+	margin: 2.5rem 0;
 }
