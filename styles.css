@@ -11,16 +11,14 @@ body {
 	align-items: center;
 	justify-content: center;
 	min-height: 100vh;
-	/* min-height: 100vh;
-	display: grid;
+	/* display: grid;
 	place-content: center; */
 }
 
 .container {
-	max-width: 25rem;
+	max-width: 30rem;
 	background-color: hsl(0, 0%, 100%);
-	padding: 15px;
-	/* margin: 15rem 0; */
+	padding: 1.5rem;
 	text-align: center;
 }
 div.container,
@@ -35,13 +33,16 @@ img.Qrcode {
 	max-width: 100%;
 }
 h1.title {
-	font-size: 2rem;
+	font-size: 2.5rem;
 	color: hsl(218, 44%, 22%);
-	margin: 2.5rem 0;
 }
 
 div.container > p {
-	font-size: 1.5rem;
+	font-size: 1.8rem;
 	color: hsl(220, 15%, 55%);
+}
+
+h1.title,
+div.container > p {
 	margin: 2.5rem 0;
 }
